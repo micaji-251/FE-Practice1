@@ -175,7 +175,7 @@ main, header, footer {
 }
 
 .header__background {
-  background-image: url(../images/Header.png);
+  background-image: url(./images/Header.jpg);
   height: 651px;
   background-position: center;
   background-repeat: no-repeat;
@@ -232,13 +232,13 @@ main, header, footer {
   overflow: hidden;
 }
 .img__item1 {
-  background-image: url(../images/kitchens.png);
+  background-image: url(./images/kitchens.png);
 }
 .img__item2 {
-  background-image: url(../images/bathrooms.png);
+  background-image: url(./images/bathrooms.png);
 }
 .img__item3 {
-  background-image: url(../images/homeadditions.png);
+  background-image: url(./images/homeadditions.png);
 }
 
 .background--black {
