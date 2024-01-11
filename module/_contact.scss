@@ -1,0 +1,35 @@
+.form__name{
+    display:flex;
+    flex-direction: column;
+    color: #E2E4E4;
+    padding: 5px 0;
+
+    .form__textarea{
+        background: #1E1E1E;
+        margin-bottom: 24px;
+        padding: 10px 10px;
+        color: #E2E4E4; 
+        resize: none;
+        outline: none;
+    }
+}
+
+.form__input{
+    background-color: #1E1E1E;
+    border-bottom: 1px solid #E2E4E4;
+    margin-bottom: 24px;
+    padding: 10px 10px;
+    color: #E2E4E4;
+    outline: none;
+}
+
+
+
+.button__submit{
+    padding: 8px 16px;
+    color:#3d3f3f;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}

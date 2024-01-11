@@ -1,0 +1,124 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+ul,li,ol{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// Main classes used
+
+.title{
+        font-weight: 600;
+        font-size: 40px;
+        color: #1E1E1E;
+        padding: 12px 0;
+
+        &--small{
+            font-size: 20px;
+            padding: 7px 0;
+        }
+
+        &--center{
+            text-align: center;
+        }
+}
+
+.section__text{
+        color: #ACB2B4;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 4px 0;
+
+        &--center{
+            text-align: center;
+            padding: 0 5px;
+        }
+    
+        
+}
+
+.padding24{
+    padding: 0 0 24px 0;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 24px;
+    
+    &--grey{
+        color: #5E6668;
+    }
+
+    &--black{
+        color: #1E1E1E;
+    }
+
+    &--small{
+        font-size: 12px;
+        padding: 0;
+   
+    }
+    &--lighter{
+        font-weight: 500;
+    }
+
+    &--blue{
+        color: #0449AB;
+    }
+
+    &--maroon{
+        color: #A26028;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    &--white{
+        color: white;
+        padding: 0;
+    }
+}
+
+.service__button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:500;
+    margin: 24px 0;
+
+    i{
+        padding: 0 4px;
+    }
+}
+
+.bottom__border{
+    border-top: 1px solid #E2E4E4;
+    width: 561px;
+}
+

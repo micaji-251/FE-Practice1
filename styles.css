@@ -1,0 +1,357 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+ul, li, ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1E1E1E;
+  padding: 12px 0;
+}
+.title--small {
+  font-size: 20px;
+  padding: 7px 0;
+}
+.title--center {
+  text-align: center;
+}
+
+.section__text {
+  color: #ACB2B4;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 4px 0;
+}
+.section__text--center {
+  text-align: center;
+  padding: 0 5px;
+}
+
+.padding24 {
+  padding: 0 0 24px 0;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFF;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+.text--grey {
+  color: #5E6668;
+}
+.text--black {
+  color: #1E1E1E;
+}
+.text--small {
+  font-size: 12px;
+  padding: 0;
+}
+.text--lighter {
+  font-weight: 500;
+}
+.text--blue {
+  color: #0449AB;
+}
+.text--maroon {
+  color: #A26028;
+  text-align: center;
+  padding: 0 10px;
+}
+.text--white {
+  color: white;
+  padding: 0;
+}
+
+.service__button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #1E1E1E;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 24px 0;
+}
+.service__button i {
+  padding: 0 4px;
+}
+
+.bottom__border {
+  border-top: 1px solid #E2E4E4;
+  width: 561px;
+}
+
+body {
+  width: 100%;
+}
+
+main, header, footer {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.l__container {
+  padding: 24px 96px;
+  margin-bottom: 24px;
+  background: #FFF;
+}
+.l__container--brown {
+  background: #F5F5F5;
+}
+.l__container--black {
+  background-color: #1E1E1E;
+}
+
+.flex {
+  display: flex;
+}
+.flex--spacebetween {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  overflow: hidden;
+}
+.grid--4container {
+  grid-template-columns: 1fr 1fr 1fr 0.65fr;
+  padding: 30px 0;
+  -moz-column-gap: 42px;
+       column-gap: 42px;
+}
+.grid--5container {
+  grid-template-columns: 0.85fr 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+.grid--2container {
+  grid-template-columns: 6fr 4fr;
+  -moz-column-gap: 42px;
+       column-gap: 42px;
+}
+.grid .grid--2container--equal {
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+.grid .item--span2 {
+  grid-column: 1/span 2;
+}
+
+.nav__flex__item {
+  padding: 10px 16px;
+  color: #5E6668;
+  font-weight: 275;
+}
+
+.actions__item {
+  margin-right: 14px;
+}
+
+.header__background {
+  background-image: url(../images/Header.png);
+  height: 651px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.nav__background {
+  background-image: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.89) 59.69%, rgba(255, 255, 255, 0.61) 80%, rgba(255, 255, 255, 0) 100%);
+  padding: 15px 42px;
+}
+
+.search__container {
+  text-align: center;
+  padding: 200px 0;
+}
+.search__container .searchtext {
+  font-size: 15px;
+  color: #464C4E;
+  padding-bottom: 14px;
+}
+.search__container .search__bar {
+  width: 483px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFF;
+  height: 50px;
+}
+.search__container .search__bar i {
+  padding: 6px 4px;
+  color: #778083;
+}
+.search__container .search__bar input {
+  padding: 10px 5px;
+  margin: 15px 5px;
+  width: 260px;
+}
+.search__container .search__bar .search_button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #0449AB;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #0449AB 1px solid;
+}
+
+.img__item {
+  padding: 24px 0 0;
+  height: 357px;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.img__item1 {
+  background-image: url(../images/kitchens.png);
+}
+.img__item2 {
+  background-image: url(../images/bathrooms.png);
+}
+.img__item3 {
+  background-image: url(../images/homeadditions.png);
+}
+
+.background--black {
+  background-image: linear-gradient(180deg, rgba(22, 24, 24, 0) 0%, #161818 100%);
+  width: inherit;
+  height: 357px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text__item {
+  padding-left: 45px;
+}
+
+.service__icon {
+  height: 32px;
+  width: 32px;
+  padding-right: 8px;
+}
+
+.service__text {
+  display: flex;
+  align-items: center;
+}
+
+.process__item {
+  padding: 24px 0;
+}
+.process__item1 {
+  padding-right: 16px;
+}
+
+.space2 {
+  margin-bottom: 42px;
+}
+
+.process__img {
+  height: 320px;
+}
+.process__img img {
+  height: 100%;
+}
+
+.customers__imgcontainer {
+  padding-top: 44px;
+}
+
+.footer__imgcontainer {
+  width: 799px;
+  margin: 0 auto;
+  padding: 101px 0;
+}
+
+.footer__text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.black {
+  color: #000;
+  padding: 0 5px;
+}
+
+.form__name {
+  display: flex;
+  flex-direction: column;
+  color: #E2E4E4;
+  padding: 5px 0;
+}
+.form__name .form__textarea {
+  background: #1E1E1E;
+  margin-bottom: 24px;
+  padding: 10px 10px;
+  color: #E2E4E4;
+  resize: none;
+  outline: none;
+}
+
+.form__input {
+  background-color: #1E1E1E;
+  border-bottom: 1px solid #E2E4E4;
+  margin-bottom: 24px;
+  padding: 10px 10px;
+  color: #E2E4E4;
+  outline: none;
+}
+
+.button__submit {
+  padding: 8px 16px;
+  color: #3d3f3f;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.background--black:hover {
+  background-image: linear-gradient(180deg, rgba(22, 24, 24, 0) 0%, rgba(22, 24, 24, 0) 100%);
+  transition: 1.5s;
+}
+
+.service__button:hover {
+  background-color: #FFF;
+  color: #1E1E1E;
+  border: #1E1E1E 1px solid;
+  transition: 0.5s;
+}
+
+.search__bar .search_button:hover {
+  background-color: #FFF;
+  color: #0449AB;
+  border: #0449AB 1px solid;
+  transition: 0.5s;
+}/*# sourceMappingURL=styles.css.map */
